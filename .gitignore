@@ -17,6 +17,9 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# Deploy secret — create this file manually on the server
+.deploy-secret
+
 # Vim
 *.swp
 *.swo
