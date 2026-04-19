@@ -27,7 +27,7 @@ $data = json_decode($payload, true);
 
 // Only act on pushes to the default/main branch
 $ref = $data['ref'] ?? '';
-if ($ref !== 'refs/heads/main') {
+if (!in_array($ref, ['refs/heads/main', 'refs/heads/master'])) {
     http_response_code(200);
     exit('Ignored (not main branch)');
 }
