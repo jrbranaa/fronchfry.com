@@ -10,6 +10,7 @@ description: Another test post
 
 Well, just because I want to give it a try.  
 
->I do want to give this block quote a try though
+> I do want to give this block quote a try though
 
+Now I've updated it to see if it auto publishes.  
 
