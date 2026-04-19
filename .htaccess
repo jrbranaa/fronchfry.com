@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteBase /
+
+# Serve real files/dirs as-is
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Route /posts/slug and /pages/slug
+RewriteRule ^posts/([a-z0-9_-]+)/?$ post.php?slug=$1 [L,QSA]
+RewriteRule ^pages/([a-z0-9_-]+)/?$ page.php?slug=$1 [L,QSA]
