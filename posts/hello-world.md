@@ -2,6 +2,8 @@
 title: Hello World
 date: 2026-04-18
 description: The first post on fronchfry — a quick introduction.
+publish date: 2026-04-18
+current state: published
 ---
 
 Welcome to **fronchfry**. This is the first post.
