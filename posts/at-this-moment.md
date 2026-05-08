@@ -1,8 +1,8 @@
 ---
 title: At this Moment... 
-date: April 28, 2026
+date: 05/08/2026 
 description: You are doing exactly what you are supposed to be doing
-publish date: May 8, 2026
+publish date: 05/08/2026
 current state: published
 ---
 
