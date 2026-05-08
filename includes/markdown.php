@@ -114,11 +114,20 @@ function load_page(string $slug): ?array {
 }
 
 function get_all_posts(): array {
+    $today = date('Y-m-d');
     $posts = [];
     foreach (glob(__DIR__ . '/../posts/*.md') as $file) {
         $slug = basename($file, '.md');
         $parsed = parse_frontmatter(file_get_contents($file));
-        $posts[] = array_merge($parsed['meta'], ['slug' => $slug]);
+        $meta = $parsed['meta'];
+
+        if (($meta['current state'] ?? '') !== 'published') continue;
+
+        $publish_date = trim($meta['publish date'] ?? '');
+        if ($publish_date === '') $publish_date = $today;
+        if ($publish_date > $today) continue;
+
+        $posts[] = array_merge($meta, ['slug' => $slug]);
     }
     usort($posts, fn($a, $b) => strcmp($b['date'], $a['date']));
     return $posts;
