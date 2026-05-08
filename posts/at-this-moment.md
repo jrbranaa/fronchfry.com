@@ -2,8 +2,8 @@
 title: At this Moment... 
 date: April 28, 2026
 description: You are doing exactly what you are supposed to be doing
-publish date:
-current state: publish
+publish date: May 8, 2026
+current state: published
 ---
 
 I've found myself routinely judging the thing that I was doing in the moment.  "Oh, I should be working on x right now..."  is an all too common internal dialog.  The self criticismi, or worse yet shame that has come from that is not helpful. 
