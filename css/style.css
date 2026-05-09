@@ -81,8 +81,19 @@ main {
 }
 
 @media (max-width: 800px) {
+    body { padding-bottom: 108px; }
     .layout { flex-direction: column; }
-    .sidebar { width: 100%; }
+    .sidebar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background: var(--bg);
+        border-top: 1px solid var(--border);
+        padding: 0;
+        z-index: 100;
+    }
 }
 
 /* Post list */
