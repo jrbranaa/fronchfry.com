@@ -91,7 +91,7 @@ main {
         width: 100%;
         background: var(--bg);
         border-top: 1px solid var(--border);
-        padding: 0;
+        padding: 8;
         z-index: 100;
     }
 }
