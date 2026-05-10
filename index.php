@@ -14,13 +14,15 @@ require __DIR__ . '/includes/header.php';
     <?php else: ?>
         <?php foreach ($posts as $post): ?>
         <article class="post-summary">
-            <h2><a href="/posts/<?= htmlspecialchars($post['slug']) ?>"><?= htmlspecialchars($post['title']) ?></a></h2>
-            <?php if ($post['date']): ?>
-                <time datetime="<?= htmlspecialchars($post['date']) ?>"><?= htmlspecialchars(date('F j, Y', strtotime($post['date']))) ?></time>
-            <?php endif; ?>
-            <?php if ($post['description']): ?>
-                <p><?= htmlspecialchars($post['description']) ?></p>
-            <?php endif; ?>
+            <a href="/posts/<?= htmlspecialchars($post['slug']) ?>" class="post-summary-link">
+                <h2><?= htmlspecialchars($post['title']) ?></h2>
+                <?php if ($post['date']): ?>
+                    <time datetime="<?= htmlspecialchars($post['date']) ?>"><?= htmlspecialchars(date('F j, Y', strtotime($post['date']))) ?></time>
+                <?php endif; ?>
+                <?php if ($post['description']): ?>
+                    <p><?= htmlspecialchars($post['description']) ?></p>
+                <?php endif; ?>
+            </a>
         </article>
         <?php endforeach; ?>
     <?php endif; ?>

@@ -118,12 +118,13 @@ main {
     margin: 0 0 0.3rem;
 }
 
-.post-summary h2 a {
+.post-summary-link {
+    display: block;
     color: var(--fg);
     text-decoration: none;
 }
 
-.post-summary h2 a:hover { color: var(--accent); }
+.post-summary-link:hover h2 { color: var(--accent); }
 
 .post-summary time {
     font-size: 0.85rem;
