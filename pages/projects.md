@@ -1,3 +1,5 @@
+# Projects
+
 The following are projects that I am working on that are far enough along to warrant mentioning.  
 
 ## srchParty
@@ -7,7 +9,7 @@ srchParty is a lost and found service that reunites people with their lost belon
 
 The basic premise is that users can register their items with the service, throw a QR code sticker on their item, and feel better about being reunited with that item in the event that it is lost.  
 
-For more information about it, check out the https://srchParty.com or https://devblog.srchParty.com.
+For more information about it, check out [srchParty.com](https://srchParty.com) or [devblog.srchparty.com](https://devblog.srchParty.com).
 
 ## yajigo
 **Status:** in development
@@ -49,6 +51,6 @@ Strictly speaking, this isn't MY project, it's one of my sons' project.  One tha
 
 The project is being created with Godot.  
 
-For more info, check out https//hordedefense.com
+For more info, check out [hordedefense.com](https//hordedefense.com)
 
 
