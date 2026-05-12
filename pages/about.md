@@ -2,15 +2,5 @@
 title: About
 ---
 
-This is **fronchfry** — a simple blog built with PHP and Markdown.
+Hi!  I'm **fronchfry**, aka  JR Branaa, and this is my blog where I post various musings on topics that I find interesting.  If you're interested in what I'm working on, you can visit the (projects)[./projects] page.   
 
-## The stack
-
-- **PHP** renders everything server-side
-- **Markdown** files live in `/posts` and `/pages`
-- **No database** — just files
-- **No framework** — just PHP and a bit of CSS
-
-## Adding pages
-
-Drop a `.md` file in the `/pages` folder. The URL will be `/pages/your-filename`.
