@@ -16,7 +16,7 @@ For more information about it, check out [srchParty.com](https://srchParty.com) 
 
 Yajigo, from the Chinese word *yaji*, is a tool that allows users to share their availability for live chats, whether online or in person.  
 
-This project came from my desire to develop and nurture a community of people through engaging and thought provoking discussions LIVE.  The internet if full of "connections" and "friends", but for be they are shallow and unfulfilling.  It's way to easy to drop a comment somewhere with little to no regard for the recipient.  
+This project came from my desire to develop and nurture a community of people through engaging and thought provoking discussions LIVE.  The internet if full of "connections" and "friends", but for me they are shallow and unfulfilling.  It's way too easy to drop a comment somewhere with little to no regard for the recipient.  
 
 If you like to snipe from the shadows, this isn't for you.  
 
@@ -25,24 +25,24 @@ You will see this on all my sites, just look for it in a sidebar, header, or foo
 ## simple-webs
 **Status:** available
 
-Simple-webs was my desire to spin up really small websites easily and cheaply. 
+Simple-Webs was my desire to spin up really small websites easily and cheaply. 
 
-This came from my looking at my monthly digital ocean bill and reflecting that there's got a be a cheaper way to hos simple websites.  
+The impetus for this project was my monthly Digital Ocean bill and thing that there's got a be a cheaper way to host simple websites.  
 
-I've used similar offerings, but they seemed fairly limiting because they presupposed what stacks people wanted to use.  This one is pretty flexible in that it is based on containers.  So pretty much any container you want to spin up, it will server up.  
+I've used similar offerings, but they seemed both limiting and complex at the same time.  This one is pretty flexible in that it is based on containers.  So pretty much any container you want to spin up, it will serve up.  
 
-This blog, yajigo, and the horde defense websites are all running on simple-webs.  
+This blog, Yajigo, and the Horde Defense websites are all running on Simple-Webs.  
 
 ## simple-blogs
 **Status:** available
 
-Simple-blogs is exactly that.  It's a simple blog that dynamically creates blog entries and pages from markdown.
+Simple-Blogs is exactly that.  It's a simple blog engine that dynamically creates blog entries and pages from markdown.
 
-The impetus for this project was that I felt other options like WordPress were complete overkill for simple blogs.  I also wasn't a fan of the fact that my content was stored in a DB.  For me, there's no reason to store it in anything other than plain text.  As I use md for all my notes, I decided this was a simple format to use.  
+The impetus for this project was that I felt other options like WordPress were complete overkill for simple blogs.  Storing content in a database also seemed unnecessary for my needs.  For me, there's no reason to store it in anything other than plain text.  As I use md for all my notes, I decided this was a simple format to use.  
 
-This is not a CMS, it's a simple blog.  
+This is not a CMS, it's a simple blog engine.  
 
-This project gave birth to both simple-webs and yajigo.  
+This project gave birth to both Simple-Webs and Yajigo.  
 
 ## horde defense
 **Status:** in development
