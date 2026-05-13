@@ -9,7 +9,7 @@ srchParty is a lost and found service that reunites people with their lost belon
 
 The basic premise is that users can register their items with the service, throw a QR code sticker on their item, and feel better about being reunited with that item in the event that it is lost.  
 
-For more information about it, check out [srchParty.com](https://srchParty.com) or [devblog.srchparty.com](https://devblog.srchParty.com).
+For more information about it, check out [srchParty.com](https://srchParty.com) or [devlog.srchparty.com](https://devlog.srchParty.com).
 
 ## yajigo
 **Status:** in development
