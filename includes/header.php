@@ -13,6 +13,7 @@
         <ul>
             <li><a href="/">Blog</a></li>
             <li><a href="/pages/about">About</a></li>
+            <li><a href="/pages/projects">Projects</a></li>
         </ul>
     </nav>
 </header>

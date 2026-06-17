@@ -81,8 +81,19 @@ main {
 }
 
 @media (max-width: 800px) {
+    body { padding-bottom: 108px; }
     .layout { flex-direction: column; }
-    .sidebar { width: 100%; }
+    .sidebar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background: var(--bg);
+        border-top: 1px solid var(--border);
+        padding: 8px;
+        z-index: 100;
+    }
 }
 
 /* Post list */
@@ -107,12 +118,13 @@ main {
     margin: 0 0 0.3rem;
 }
 
-.post-summary h2 a {
+.post-summary-link {
+    display: block;
     color: var(--fg);
     text-decoration: none;
 }
 
-.post-summary h2 a:hover { color: var(--accent); }
+.post-summary-link:hover h2 { color: var(--accent); }
 
 .post-summary time {
     font-size: 0.85rem;
