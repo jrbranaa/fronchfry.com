@@ -1,8 +1,7 @@
 ---
 title: The Fallacy of Scarcity
 date: 08/05/2026 
-description: An argument that most scarcity we feel isn't real — it's manufactured by our shift toward a transactional,
-  money-mediated relationship with the world.
+description: An argument that most scarcity we feel isn't real — it's manufactured by our shift toward a transactional, money-mediated relationship with the world.
 publish date: 08/05/2026
 current state: published
 tags: [community, fallacies]
